@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/team_5" />
+
+    <WebView
+        android:id="@+id/videoplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        android:background="#0674D5"
+        android:foreground="@android:color/holo_blue_light" >
+    </WebView>
+
+
+
+    <Button
+        android:id="@+id/takebutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/btn_circle2"
+        android:text="点我拍照"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/makebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="450dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="创音" />
+
+    <Button
+        android:id="@+id/urlbutton"
+        android:text="url"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#00000000"/>
+</FrameLayout>
+
